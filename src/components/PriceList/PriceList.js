@@ -24,7 +24,7 @@ function PriceList({onSetPrice, price, isDisabled }) {
     return (
         <>
             <form>
-                <select
+                <select className="pricelist"
                     value={selected}
                     onChange={e => setSelected(e.target.value)}>
                     {options.map((value) => (
@@ -33,6 +33,8 @@ function PriceList({onSetPrice, price, isDisabled }) {
                         </option>
                     ))}
                 </select>
+                <br></br>
+                <br></br>
                 <button type="button" disabled={isDisabled} onClick={submit} class="btn btn-info">
                     Submit
                 </button>

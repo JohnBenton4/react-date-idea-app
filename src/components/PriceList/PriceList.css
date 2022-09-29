@@ -1,4 +1,8 @@
 .price {
-    border: 1px solid red;
-    color: blue;
+    border: 3px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+.pricelist {
+    font-size: 1.5em;
 }

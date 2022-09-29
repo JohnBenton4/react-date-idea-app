@@ -24,7 +24,7 @@ function NumberList({onSetParticipants, participants, isDisabled }) {
     return (
         <>
             <form>
-                <select
+                <select className="numberlist"
                     value={selected}
                     onChange={e => setSelected(e.target.value)}>
                     {options.map((value) => (
@@ -33,6 +33,8 @@ function NumberList({onSetParticipants, participants, isDisabled }) {
                         </option>
                     ))}
                 </select>
+                <br></br>
+                <br></br>
                 <button type="button" disabled={isDisabled} onClick={submit} class="btn btn-info">
                     Submit
                 </button>

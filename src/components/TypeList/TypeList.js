@@ -6,12 +6,9 @@ import Type from '../Type/Type';
 
 const options = ["recreational", "social", "relaxation"]
 
-//line below would be where onSetType would be passed in
 function TypeList({onSetType, type, isDisabled}) {
     const [selected, setSelected] = useState(options[0]);
-    // const [type, setType] = useState({})
-    //add another const that renames the above so it can be used in App.js
-    //insead of living here it lives in App/js  
+
 
     const submit = () => {
         console.log(selected);
@@ -20,14 +17,13 @@ function TypeList({onSetType, type, isDisabled}) {
             .then((data) => {
                 console.log(data)
                 onSetType(data);
-                //This above would be a onSetType (a prop instead of what is currently there),
             });
     };
 
     return (
         <>
             <form>
-                <select
+                <select className="typelist"
                     value={selected}
                     onChange={e => setSelected(e.target.value)}>
                     {options.map((value) => (
@@ -36,7 +32,9 @@ function TypeList({onSetType, type, isDisabled}) {
                         </option>
                     ))}
                 </select>
-                <button type="button" disabled={isDisabled} onClick={submit} class="btn btn-info">
+                <br></br>
+                <br></br>
+                <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" disabled={isDisabled} onClick={submit} >
                     
                     Submit
                 </button>

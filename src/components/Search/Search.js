@@ -42,8 +42,9 @@ function Search({activity}) {
     return (
         <>
             <form onSubmit={submit}>
-                <label>
+                <label className="find">
                     Find a Date Idea Near YOU!!!!!!!!!!:
+                    <br></br>
                     <input
                         type="text"
                         value={searchTerm}

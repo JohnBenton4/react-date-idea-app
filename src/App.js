@@ -46,7 +46,7 @@ function App() {
 
   return (
     <div className="container">
-      <div><h1>Date Idea App</h1></div>
+      <div><h1 className="title">Date Idea App</h1></div>
       <div className="searchFields">
         <br></br>
         <div className="type"><h2> What Type Of Date Are You Looking For? </h2>
