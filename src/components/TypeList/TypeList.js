@@ -36,11 +36,12 @@ function TypeList({onSetType, type, isDisabled}) {
                         </option>
                     ))}
                 </select>
-                <button type="button" disabled={isDisabled} onClick={submit}>
+                <button type="button" disabled={isDisabled} onClick={submit} class="btn btn-info">
+                    
                     Submit
                 </button>
             </form>
-            <div className="type">
+            <div >
            <Type  type={type} />
 
             </div>

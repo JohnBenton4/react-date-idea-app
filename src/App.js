@@ -46,12 +46,21 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Date Idea App</h1>
-      <TypeList onSetType={setType} type={type} isDisabled={isTypeDisabled} />
-      <NumberList onSetParticipants={setParticipants} participants={participants} isDisabled={isParticipantsDisabled} />
-      <PriceList onSetPrice={setPrice} price={price} isDisabled={isPriceDisabled} />
+      <div><h1>Date Idea App</h1></div>
+      <div className="searchFields">
+        <br></br>
+        <div className="type"><h2> What Type Of Date Are You Looking For? </h2>
+          <TypeList onSetType={setType} type={type} isDisabled={isTypeDisabled} />
+        </div>
+        <div className="number"><h2> How Many People Are Going on This Date? </h2>
+          <NumberList onSetParticipants={setParticipants} participants={participants} isDisabled={isParticipantsDisabled} />
+        </div>
+        <div className="price"><h2> How Much Do You Want To Spend? </h2>
+          <PriceList onSetPrice={setPrice} price={price} isDisabled={isPriceDisabled} />
+        </div>
+      </div>
+      <br></br>
       <Search activity={type.activity || participants.activity || price.activity} />
-
     </div>
   );
 }

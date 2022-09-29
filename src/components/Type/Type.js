@@ -2,7 +2,7 @@ import './Type.css';
 
 function Type({ type }) {
     return (
-        <div className="type">
+        <div >
             <h2>{type.activity}</h2>
         </div>
     );

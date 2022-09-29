@@ -33,11 +33,11 @@ function PriceList({onSetPrice, price, isDisabled }) {
                         </option>
                     ))}
                 </select>
-                <button type="button" disabled={isDisabled} onClick={submit}>
+                <button type="button" disabled={isDisabled} onClick={submit} class="btn btn-info">
                     Submit
                 </button>
             </form>
-            <div className="price">
+            <div>
            <Price  price={price} />
 
             </div>

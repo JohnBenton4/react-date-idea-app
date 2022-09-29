@@ -33,11 +33,11 @@ function NumberList({onSetParticipants, participants, isDisabled }) {
                         </option>
                     ))}
                 </select>
-                <button type="button" disabled={isDisabled} onClick={submit}>
+                <button type="button" disabled={isDisabled} onClick={submit} class="btn btn-info">
                     Submit
                 </button>
             </form>
-            <div className="participants">
+            <div >
            <Numbers  participants={participants} />
 
             </div>

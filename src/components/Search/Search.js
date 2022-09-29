@@ -50,12 +50,16 @@ function Search({activity}) {
                         onChange={(event) => setSearchTerm(event.target.value)}
                     ></input>
                 </label>
-                <input type="submit"></input>
+                {/* <input type="submit"></input> */}
+                <button type="submit" class="btn btn-success">Submit</button>
             </form>
             <div className="search">{renderDates()}
             </div>
+            
         </>
+        
     );
+    
 }
 
 export default Search;
