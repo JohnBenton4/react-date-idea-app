@@ -3,12 +3,10 @@ import './NumberList.css';
 import { useState } from "react";
 import Numbers from '../Numbers/Numbers';
 
-
 const options = ["1", "2", "3", "4", "5", "6"]
 
 function NumberList({onSetParticipants, participants, isDisabled }) {
     const [selected, setSelected] = useState(options[0]);
-    // const [participants, setParticipants] = useState({})
 
     const submit = () => {
         console.log(selected);
@@ -19,8 +17,7 @@ function NumberList({onSetParticipants, participants, isDisabled }) {
                 onSetParticipants(data);
             });
     };
-    //some sort of object structure can do the $
-    //store the dollar sign as the value, line 35(ish) - (option.map)
+
     return (
         <>
             <form>

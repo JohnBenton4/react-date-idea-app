@@ -1,3 +1,6 @@
+Use this URL to get around the CORS error:
+https://cors-anywhere.herokuapp.com/corsdemo
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

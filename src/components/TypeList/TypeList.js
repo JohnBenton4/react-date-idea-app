@@ -3,12 +3,10 @@ import './TypeList.css';
 import { useState } from "react";
 import Type from '../Type/Type';
 
-
 const options = ["recreational", "social", "relaxation"]
 
 function TypeList({onSetType, type, isDisabled}) {
     const [selected, setSelected] = useState(options[0]);
-
 
     const submit = () => {
         console.log(selected);
@@ -48,10 +46,6 @@ function TypeList({onSetType, type, isDisabled}) {
 }
 
 export default TypeList;
-
-
-
-
 
 
 

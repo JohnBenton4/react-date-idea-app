@@ -6,11 +6,6 @@ import PriceList from './components/PriceList/PriceList';
 import { useEffect, useState } from 'react';
 
 function App() {
-  //some sort of useState from TypeList to go into App.js and then go into Search
-  //make the search result a variable for Search,
-  //the child has to have access to the thing and be able to change the thing
-  //Tpelist needs access to setSearchTerm and below it s
-  //have to use props to get it to go where I want
 
   const [type, setType] = useState({})
   const [participants, setParticipants] = useState({})
@@ -36,13 +31,8 @@ function App() {
       setIsTypeDisabled(true)
       setIsParticipantsDisabled(true)
     }
-
-    // console.log(isDisabled);
   },
-
   );
-
-  //try to log anything, should see that typelist is disabled
 
   return (
     <div className="container">
