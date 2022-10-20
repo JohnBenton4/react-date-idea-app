@@ -3,6 +3,7 @@ import NumberList from './components/NumberList/NumberList';
 import TypeList from './components/TypeList/TypeList';
 import Search from './components/Search/Search';
 import PriceList from './components/PriceList/PriceList';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import { useEffect, useState } from 'react';
 
 function App() {

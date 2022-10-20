@@ -3,6 +3,7 @@ import './TypeList.css';
 import { useState } from "react";
 import Type from '../Type/Type';
 
+
 const options = ["recreational", "social", "relaxation"]
 
 function TypeList({onSetType, type, isDisabled}) {
