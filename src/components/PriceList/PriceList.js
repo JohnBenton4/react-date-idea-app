@@ -19,8 +19,7 @@ function PriceList({onSetPrice, price, isDisabled }) {
                 onSetPrice(data);
             });
     };
-    //some sort of object structure can do the $
-    //store the dollar sign as the value, line 35(ish) - (option.map)
+   
     return (
         <>
             <form>
