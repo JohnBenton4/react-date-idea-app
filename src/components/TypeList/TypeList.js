@@ -33,7 +33,7 @@ function TypeList({onSetType, type, isDisabled}) {
                 </select>
                 <br></br>
                 <br></br>
-                <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" disabled={isDisabled} onClick={submit} >
+                <button type="button" className="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" disabled={isDisabled} onClick={submit} >
                     
                     Submit
                 </button>

@@ -32,7 +32,7 @@ function App() {
     }
   },
 
-  []
+  [participants.activity, price.activity,type.activity]
   );
 
   return (

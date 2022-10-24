@@ -32,7 +32,7 @@ function NumberList({onSetParticipants, participants, isDisabled }) {
                 </select>
                 <br></br>
                 <br></br>
-                <button type="button" disabled={isDisabled} onClick={submit} class="btn btn-info">
+                <button type="button" disabled={isDisabled} onClick={submit} className="btn btn-info">
                     Submit
                 </button>
             </form>

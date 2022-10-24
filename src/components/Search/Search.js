@@ -9,7 +9,7 @@ function Search({activity}) {
 
     const submit = (event) => {
         event.preventDefault();
-
+console.log(secret)
         fetch(`https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=${activity}&location=${searchTerm}`, {
             method: "GET",
             headers: { "Authorization": `${secret.secretAPIKey}` }
@@ -50,7 +50,7 @@ function Search({activity}) {
                     ></input>
                 </label>
                 {/* <input type="submit"></input> */}
-                <button type="submit" class="btn btn-success">Submit</button>
+                <button type="submit" className="btn btn-success">Submit</button>
             </form>
             <div className="search">{renderDates()}
             </div>
