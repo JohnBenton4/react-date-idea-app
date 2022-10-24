@@ -15,8 +15,6 @@ function App() {
   const [isParticipantsDisabled, setIsParticipantsDisabled] = useState(false)
   const [isPriceDisabled, setIsPriceDisabled] = useState(false)
 
-
-
   useEffect(() => {
     if (type.activity) {
       setIsParticipantsDisabled(true)
@@ -33,6 +31,8 @@ function App() {
       setIsParticipantsDisabled(true)
     }
   },
+
+  []
   );
 
   return (
