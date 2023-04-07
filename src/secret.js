@@ -1,1 +1,0 @@
-export const secret = {secretAPIKey : "Bearer B5zGPqGxprwzPS5tqCB74TdLcdQp6hjqmTHLBOFrgafDr0mZ1siRiRuIO9d1SMvsOEAXx7tVFSursP_2xFL4pEjF6IqEhTNYyvYhpzlSxpLZ6fDqonMjmkJpIO8sY3Yx"};
