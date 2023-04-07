@@ -41,7 +41,8 @@ console.log(secret)
         <>
             <form onSubmit={submit}>
                 <label className="find">
-                    Find a Date Idea Near YOU!:
+                    Find a Date Idea Near You! Enter your city and select Submit:
+                    <br></br>
                     <br></br>
                     <input
                         type="text"

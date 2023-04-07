@@ -38,8 +38,8 @@ function App() {
         <h1 className="title">Date Idea App</h1>
       </div>
       <br></br>
-      <div>Follow this link to receive temporary access before continuing:</div>
-      <div> <a href= "https://cors-anywhere.herokuapp.com/corsdemo">Temporary Access</a></div>
+      <div className="access">Follow the link below to receive temporary access before continuing:</div>
+       <a href= "https://cors-anywhere.herokuapp.com/corsdemo" target="_blank">Temporary Access</a>
       <div className="searchFields">
         <br></br>
         <div className="type">

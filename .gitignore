@@ -23,9 +23,7 @@ yarn-debug.log*
 yarn-error.log*
 
 
-./src/secret.js
-
-
+.src.secret.js
 
 
 Client ID

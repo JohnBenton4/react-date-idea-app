@@ -3,6 +3,10 @@
   text-align: center;
 }
 
+.access {
+  font-size: 25px;
+}
+
 .searchFields {
   display: flex;
   padding: 30px;
