@@ -3,14 +3,14 @@ import './PriceList.css';
 import { useState } from "react";
 import Price from '../Price/Price';
 
-let $ = "0";
-let $$ = "0.1";
-let $$$ = "0.2";
-let $$$$ = "0.3";
-let $$$$$ = "0.4";
+// let $ = "0";
+// let $$ = "0.1";
+// let $$$ = "0.2";
+// let $$$$ = "0.3";
+// let $$$$$ = "0.4";
 
-const options = ["$", "$$", "$$$", "$$$$", "$$$$$"]
-// const options = ["0", "0.1", "0.2", "0.3", "0.4"]
+// const options = ["$", "$$", "$$$", "$$$$", "$$$$$"]
+const options = ["0", "0.1", "0.2", "0.3", "0.4"]
 
 function PriceList({onSetPrice, price, isDisabled }) {
     const [selected, setSelected] = useState(options[0]);

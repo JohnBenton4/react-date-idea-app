@@ -5,7 +5,9 @@ import Search from "./components/Search/Search";
 import PriceList from "./components/PriceList/PriceList";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useEffect, useState } from "react";
-import { NavLink } from "react-bootstrap";
+// import { NavLink } from "react-bootstrap";
+// require('dotenv').config();
+
 
 function App() {
   const [type, setType] = useState({});
