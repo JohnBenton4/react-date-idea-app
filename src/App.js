@@ -5,9 +5,6 @@ import Search from "./components/Search/Search";
 import PriceList from "./components/PriceList/PriceList";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useEffect, useState } from "react";
-// import { NavLink } from "react-bootstrap";
-// require('dotenv').config();
-
 
 function App() {
   const [type, setType] = useState({});
@@ -40,8 +37,12 @@ function App() {
         <h1 className="title">Date Idea App</h1>
       </div>
       <br></br>
-      <div className="access">Follow the link below to receive temporary access before continuing:</div>
-       <a href= "https://cors-anywhere.herokuapp.com/corsdemo" >Temporary Access</a>
+      <div className="access">
+        Follow the link below to receive temporary access before continuing:
+      </div>
+      <a href="https://cors-anywhere.herokuapp.com/corsdemo">
+        Temporary Access
+      </a>
       <div className="searchFields">
         <br></br>
         <div className="type">

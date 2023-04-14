@@ -3,6 +3,7 @@ import './PriceList.css';
 import { useState } from "react";
 import Price from '../Price/Price';
 
+// Research how to replace dollar signs for the decimals
 // let $ = "0";
 // let $$ = "0.1";
 // let $$$ = "0.2";

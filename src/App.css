@@ -1,5 +1,4 @@
 .container {
-  
   text-align: center;
 }
 
@@ -10,24 +9,20 @@
 .searchFields {
   display: flex;
   padding: 30px;
-
-
 }
 
 .title {
   font-size: 5em;
 }
 
-.type{ 
-margin: 20px
+.type {
+  margin: 20px;
 }
 
 .number {
-  margin: 20px
-
+  margin: 20px;
 }
 
 .price {
-  margin: 20px
-
+  margin: 20px;
 }

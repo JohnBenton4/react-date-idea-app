@@ -1,7 +1,6 @@
 import "./Search.css";
 import React, { useState } from "react";
-// import {secret} from '../../../.env'
-// import {secret} from '../../secret.js'
+
 const API_KEY = process.env.REACT_APP_API_KEY;
 
 function Search({ activity }) {
@@ -11,13 +10,11 @@ function Search({ activity }) {
 
   const submit = (event) => {
     event.preventDefault();
-    // console.log(secret)
-    // console.log(MY_KEY);
+
     fetch(
       `https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=${activity}&location=${searchTerm}`,
       {
         method: "GET",
-        // headers: { "Authorization": `${secret.secretAPIKey}` }
         headers: { "Authorization": `${API_KEY}`},
       }
     )
@@ -59,7 +56,6 @@ function Search({ activity }) {
             onChange={(event) => setSearchTerm(event.target.value)}
           ></input>
         </label>
-        {/* <input type="submit"></input> */}
         <button type="submit" className="btn btn-success">
           Submit
         </button>

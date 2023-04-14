@@ -24,8 +24,6 @@ yarn-error.log*
 
 .env
 
-/src/secret.js
-
 
 Client ID
 Ogod7SmfX9tUXZwF6_8zvg

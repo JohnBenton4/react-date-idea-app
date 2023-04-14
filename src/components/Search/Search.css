@@ -1,11 +1,9 @@
 .search {
-    /* justify-content: center; */
     display: flex;
     justify-content: center;
 }
 
 .css {
-    
     display: flex;
     flex-wrap: wrap;
     padding: 30px;
