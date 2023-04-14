@@ -41,7 +41,7 @@ function App() {
       </div>
       <br></br>
       <div className="access">Follow the link below to receive temporary access before continuing:</div>
-       <a href= "https://cors-anywhere.herokuapp.com/corsdemo" target="_blank">Temporary Access</a>
+       <a href= "https://cors-anywhere.herokuapp.com/corsdemo" >Temporary Access</a>
       <div className="searchFields">
         <br></br>
         <div className="type">
